@@ -1,0 +1,57 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="{% static 'js/d3.layout.cloud.js' %}" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{% static 'js/common.js' %}" type="text/javascript"></script> 
+    <script src="{% static 'js/two.js' %}" type="text/javascript"></script>        
+    <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="{% static 'img/tri.png' %}" />
+    <title>Two</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/narrow-jt.css' %}" rel="stylesheet">
+  </head>
+
+  <body>   
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}">home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'one' %}">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'three' %}">3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'four' %}">4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'five' %}">5</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="jumbotron1">
+        <p class="lead3" style="text-align: center" id="makevis"></p>
+        <div id="response" align="center"></div>
+      <div>
+        <p class="lead3" style="text-align: center" id="nameme"></p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

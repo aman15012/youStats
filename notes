@@ -1,0 +1,26 @@
+photography
+
+videos:
+name
+likes/dislikes
+views
+description
+thumbnail
+date of upload
+duration
+
+
+channel:	
+name
+subscribers
+views
+
+select at max 600 vids
+
+thumbnails -- thumbnails  - on hover (all 600)
+word cloud -- description (top 30 words all selected vids)
+bubble charts -- most liked + most disliked (top 20) --  on hover
+calender view -- date of upload -- on hover -- (last 5 yrs)
+Collapsible Force Layout -- root->channels->videos (size on viewcount (optional) ) (all 600)
+Population Pyramid -- time duration of popular videos by views -- top 20
+

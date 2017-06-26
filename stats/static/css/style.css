@@ -1,0 +1,81 @@
+.text-muted{
+	font-size: 1.9em;
+	line-height: 50%;
+
+}
+.my1{
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1.1;
+}
+.col-lg-6{
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #0000;
+  border-radius: 0.3rem;
+  padding: 0px;
+  margin-top: -10px;
+}
+.lead1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  padding: 10px;
+}
+.lead2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  padding: 10px;
+}
+.lead3 {
+  font-size: 2em;
+  font-weight: 100;
+  padding: 10px;
+}
+.lead0 {
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 10px;
+}
+.my5{
+	background-color: black;
+}
+.jumbotron1 {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #f6f6f6;
+  border-radius: 0.3rem;
+}
+.my2{
+	
+	border-width: 1.25px;
+}
+.my3{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 100;
+}
+
+.my4{
+	font-size: 0.75em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.si{
+	height: 25px;
+	width: 25px;
+	padding: 2px;
+}
+.icons{
+	float: right;
+	padding-right: 20px; 
+	padding-bottom: 20px;
+}
+.bld {
+    font-weight: bold;
+}
+#tooltip {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+

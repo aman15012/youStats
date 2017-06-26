@@ -1,0 +1,50 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="{% static 'img/tri.png' %}" />
+    <title>Home</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/narrow-jt.css' %}" rel="stylesheet">
+  </head>
+
+  <body>   
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}">home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'one' %}">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'two' %}">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'three' %}">3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'four' %}">4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'five' %}">5</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="jumbotron1">
+        <h1 class="lead2" id="editme" style="text-align: center;"> 404 Error </h1>
+      <div>
+        <p class="my3" style="text-align: center;">You have probably typed an incorrect url.</p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
