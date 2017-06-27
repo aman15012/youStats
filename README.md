@@ -29,23 +29,23 @@ A working demo of the webapp is available at [here](aman15012.pythonanywhere.com
 
 ## Tree 
 
-youStats/
-├── db.sqlite3
-├── got
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-34.pyc
-│   │   ├── settings.cpython-34.pyc
-│   │   ├── urls.cpython-34.pyc
-│   │   └── wsgi.cpython-34.pyc
-│   ├── settings.py
-│   ├── settings.py~
-│   ├── urls.py
-│   └── wsgi.py
-├── manage.py
-├── notes
-├── README.md
-└── stats
+youStats/__
+├── db.sqlite3__
+├── got__
+│   ├── __init__.py__
+│   ├── __pycache____
+│   │   ├── __init__.cpython-34.pyc__
+│   │   ├── settings.cpython-34.pyc__
+│   │   ├── urls.cpython-34.pyc__
+│   │   └── wsgi.cpython-34.pyc__
+│   ├── settings.py__
+│   ├── settings.py~__
+│   ├── urls.py__
+│   └── wsgi.py__
+├── manage.py__
+├── notes__
+├── README.md__
+└── stats__
     ├── admin.py
     ├── apps.py
     ├── __init__.py
