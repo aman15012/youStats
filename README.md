@@ -1,7 +1,7 @@
 # youStats
 
 ## About
-This webapp requests data about videos on a topic from Youtube and generates cool visualizations with the data.
+This webapp requests data about videos on a topic from Youtube and generates cool visualizations with the data. The data collected has been set to 500 videos.
 
 ## Tech
   - Django to set up a web server
