@@ -22,7 +22,7 @@ $ python manage.py runserver
 A working demo of the webapp is available at aman15012.pythonanywhere.com as of 6/27/17 . 
 
 ## Screen Captures
-![home](https://github.com/aman15012/youStats/blob/master/img/home.png)
-![5](https://github.com/aman15012/seeQuora/blob/master/img/5r.png)
+![home]https://github.com/aman15012/youStats/blob/master/stats/static/img/home.png)
+![5](https://github.com/aman15012/youStats/blob/master/stats/static/img/5.pngg)
 
 ### The webapp can be extended to be used for any keyword.
