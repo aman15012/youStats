@@ -43,9 +43,9 @@ youStats/
 │   ├── urls.py__  
 │   └── wsgi.py__  
 ├── manage.py__  
-├── notes__  
-├── README.md__  
-└── stats__  
+├── notes__ (rough notes)   
+├── README.md__ (readme)   
+└── stats__ (Web App)  
     ├── admin.py  
     ├── apps.py  
     ├── __init__.py  
@@ -61,7 +61,7 @@ youStats/
     │   ├── urls.cpython-34.pyc  
     │   └── views.cpython-34.pyc  
     ├── static  
-    │   ├── css  
+    │   ├── css (CSS files)  
     │   │   ├── bootstrap.css  
     │   │   ├── bootstrap.css.map  
     │   │   ├── bootstrap-grid.css  
@@ -76,15 +76,15 @@ youStats/
     │   │   ├── bootstrap-reboot.min.css.map  
     │   │   ├── five.css  
     │   │   ├── four.css  
-    │   │   ├── narrow-jt.css  
-    │   │   └── style.css  
-    │   ├── img  
+    │   │   ├── narrow-jt.css    
+    │   │   └── style.css (main css file)   
+    │   ├── img (Static images)   
     │   │   ├── 5.png  
     │   │   ├── home.png  
     │   │   └── tri.png  
-    │   └── js  
-    │       ├── common.js  
-    │       ├── d3.layout.cloud.js  
+    │   └── js (Javascript)   
+    │       ├── common.js (common to all pages)   
+    │       ├── d3.layout.cloud.js (d3.js)  
     │       ├── five.js  
     │       ├── four.js  
     │       ├── home.js  
@@ -92,7 +92,7 @@ youStats/
     │       ├── three.js  
     │       └── two.js  
     ├── templates  
-    │   ├── 404.html  
+    │   ├── 404.html (404 page)    
     │   └── stats  
     │       ├── five.html  
     │       ├── four.html  
