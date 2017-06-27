@@ -112,7 +112,10 @@ youStats/
     └── views.py~  
 
 ## Approach
-  - Set up a Django Server or any other web server. This is required because the YouTube Data API need a web server to work.   - Set up the required html pages and css files, which will be connected to javascript files. In this case it is 6 pages       (home + 5 visualizations)
+  - Set up a Django Server or any other web server. This is required because the YouTube Data API need a web server to work.
+  
+  - Set up the required html pages and css files, which will be connected to javascript files. In this case it is 6 pages       (home + 5 visualizations)
+  
   - The main work in the development procedure is of Javascript. All the javascript files load when the respective page is       loaded.
     Step 1. Extraction of data form Youtube using Youtube Data API
            > We use the search.list method to obtain a JSON containing the search results for the query keyword.
