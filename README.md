@@ -79,9 +79,9 @@ youStats/
     │   │   ├── narrow-jt.css    
     │   │   └── style.css (main css file)   
     │   ├── img (Static images)   
-    │   │   ├── 5.png  
-    │   │   ├── home.png  
-    │   │   └── tri.png  
+    │   │   ├── 5.png (screenshot)  
+    │   │   ├── home.png (screenshot)   
+    │   │   └── tri.png (favicon)   
     │   └── js (Javascript)   
     │       ├── common.js (common to all pages)   
     │       ├── d3.layout.cloud.js (d3.js)  
@@ -91,7 +91,7 @@ youStats/
     │       ├── one.js  
     │       ├── three.js  
     │       └── two.js  
-    ├── templates  
+    ├── templates (html files)  
     │   ├── 404.html (404 page)    
     │   └── stats  
     │       ├── five.html  
@@ -101,7 +101,7 @@ youStats/
     │       ├── three.html  
     │       └── two.html  
     ├── tests.py  
-    ├── urls.py  
+    ├── urls.py (urls)  
     ├── urls.py~  
     ├── views.py  
     └── views.py~  
