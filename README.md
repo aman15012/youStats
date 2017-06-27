@@ -26,7 +26,7 @@ $ pip install django~=1.10.0
 $ python manage.py runserver
 ```
 ## Working Demo
-A working demo of the webapp is available at [here](aman15012.pythonanywhere.com) as of 6/27/17 . 
+A working demo of the webapp is available at [here](https://aman15012.pythonanywhere.com) as of 6/27/17 . 
 
 ## Screen Captures
 ![home](https://github.com/aman15012/youStats/blob/master/stats/static/img/home.png)
