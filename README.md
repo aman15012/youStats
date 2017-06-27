@@ -10,7 +10,7 @@ This webapp requests data about videos on a topic from Youtube and generates coo
   - d3.js to create interactive visualizations
   - html/css to make the web pages
 
-### Installation
+## Installation
 
 Install Django on your system and run the web server.
 
