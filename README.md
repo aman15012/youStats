@@ -17,7 +17,9 @@ This webapp requests data about videos on a topic from Youtube and generates coo
 
 ## Installation
 
-Install Django on your system and run the web server.
+1.Add an API key to common.js . Follow (this)[https://developers.google.com/youtube/v3/getting-started].
+
+2.Install Django on your system and run the web server.
 
 ```
 $ pip install django~=1.10.0
@@ -88,7 +90,7 @@ youStats/
     │   │   ├── home.png (screenshot)   
     │   │   └── tri.png (favicon)   
     │   └── js (Javascript)   
-    │       ├── common.js (common to all pages)   
+    │       ├── common.js (common to all pages and contains the key and the query keyword)   
     │       ├── d3.layout.cloud.js (d3.js)  
     │       ├── five.js  
     │       ├── four.js  
@@ -120,25 +122,20 @@ youStats/
   
     Step 1. Extraction of data form Youtube using Youtube Data API
     
-           > We use the search.list method to obtain a JSON containing the search results for the query keyword.
-           
-           > At a time a maximum of 50 results can be obtained. We use the nextPageToken form the JSON to traverse through
-           
-           > further query results. To obtain more data about the videos, video.list method is used for each videoId.
-           
-           > This call is made for each visualization separately. We have used Javascript for the API calls.
+> We use the search.list method to obtain a JSON containing the search results for the query keyword.
+> At a time a maximum of 50 results can be obtained. We use the nextPageToken form the JSON to traverse through
+> further query results. To obtain more data about the videos, video.list method is used for each videoId.
+> This call is made for each visualization separately. We have used Javascript for the API calls.
            
     Step 2. Manipulation of the obtained JSON response
     
-           > We extract the relevant data from the JSON responses collected and store then in a format required by the 
-           
-           > visualization.
+> We extract the relevant data from the JSON responses collected and store then in a format required by the 
+> visualization.
            
     Step 3. Generating the Visualizations
     
-           > Once we obtain the required data, we use D3.js to generate the required visualizations. The visualizations
-           
-           > have to be coded/edited as per our need. Also we add interactiveness to these visualizations using jQuery.
+> Once we obtain the required data, we use D3.js to generate the required visualizations. The visualizations
+> have to be coded/edited as per our need. Also we add interactiveness to these visualizations using jQuery.
            
            
    - Display the visualizations on the required pages by using Javascript DOM.
