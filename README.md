@@ -17,9 +17,9 @@ This webapp requests data about videos on a topic from Youtube and generates coo
 
 ## Installation
 
-1.Add an API key to common.js . Follow [this](https://developers.google.com/youtube/v3/getting-started).
+1. Add an API key to common.js . Follow [this](https://developers.google.com/youtube/v3/getting-started).
 
-2.Install Django on your system and run the web server.
+2. Install Django on your system and run the web server.
 
 ```
 $ pip install django~=1.10.0
@@ -114,7 +114,7 @@ youStats/
     └── views.py~  
 
 ## Approach
-  - Set up a Django Server or any other web server. This is required because the YouTube Data API need a web server to work.
+  - Set up a Django Server or any other web server. This is required because the YouTube Data API needs a web server to         work.
   
   - Set up the required html pages and css files, which will be connected to javascript files. In this case it is 6 pages       (home + 5 visualizations)
   
