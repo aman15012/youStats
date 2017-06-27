@@ -117,17 +117,23 @@ youStats/
   - Set up the required html pages and css files, which will be connected to javascript files. In this case it is 6 pages       (home + 5 visualizations)
   
   - The main work in the development procedure is of Javascript. All the javascript files load when the respective page is       loaded.
+  
     Step 1. Extraction of data form Youtube using Youtube Data API
+    
            > We use the search.list method to obtain a JSON containing the search results for the query keyword.
            > At a time a maximum of 50 results can be obtained. We use the nextPageToken form the JSON to traverse through
            > further query results. To obtain more data about the videos, video.list method is used for each videoId.
            > This call is made for each visualization separately. We have used Javascript for the API calls.
     Step 2. Manipulation of the obtained JSON response
+    
            > We extract the relevant data from the JSON responses collected and store then in a format required by the 
            > visualization.
     Step 3. Generating the Visualizations
+    
            > Once we obtain the required data, we use D3.js to generate the required visualizations. The visualizations
            > have to be coded/edited as per our need. Also we add interactiveness to these visualizations using jQuery.
+           
    - Display the visualizations on the required pages by using Javascript DOM.
- ## Tip
- When using API calls/ Ajax in Javascript, keep in mind that these calls are slow as compared to other functions. Use callback functions and if conditions to maintain the syncronus data flow.
+   
+## Tip
+When using API calls/ Ajax in Javascript, keep in mind that these calls are slow as compared to other functions. Use callback functions and if conditions to maintain the syncronus data flow.
