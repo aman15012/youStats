@@ -141,6 +141,14 @@ youStats/
            
            
    - Display the visualizations on the required pages by using Javascript DOM.
+
+
+## Visualization Details
+  - 1: Photograph : Hover for the name of the video at the bottom.
+  - 2: Word Cloud : Size of the word is a determinant of its occurence.
+  - 3: Bubble Chart : Hover for the name of the video.
+  - 4: HeatMap Calendar : Color of the cell shows the number of uploads. Red->Green means more uploads. Hover for more info.
+  - 5: Collapsible Force Layout : Center node represents youtube, it is connected to the youtube channels, connected to the        videos by each channel. Hover for more info.
    
 ## Tip
 When using API calls/ Ajax in Javascript, keep in mind that these calls are slow as compared to other functions. Use callback functions and if conditions to maintain the syncronus data flow.
